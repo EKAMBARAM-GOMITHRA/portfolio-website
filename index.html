@@ -1,33 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gomithra Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<header>
-<h1>My Portfolio</h1>
-</header>
-
 <nav>
-<a href="index.html">Home</a>
-<a href="pages/about.html">About</a>
-<a href="pages/projects.html">Projects</a>
-<a href="pages/contact.html">Contact</a>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
 </nav>
 
-<section>
-<h2>Welcome</h2>
-<p>Hello, I am learning Full Stack Development.</p>
+<!-- HOME -->
+<section id="home">
+<h1>Hi 👋</h1>
+<h1>Welcome to My Portfolio</h1>
+<p>I am Gomithra Ekambaram</p>
+<p>Aspiring Full Stack Java Developer</p>
 </section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a Computer Science student learning Full Stack Web Development.
+I am passionate about building websites and improving my skills daily.
+</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="skills">
+<div class="box">HTML</div>
+<div class="box">CSS</div>
+<div class="box">JavaScript</div>
+<div class="box">Java</div>
+<div class="box">MySQL</div>
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Learning Portfolio Website</h3>
+<p>Currently learning and building my first portfolio.</p>
+</div>
+
+<div class="project">
+<h3>Upcoming Projects</h3>
+<p>More projects will be added soon.</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Me</h2>
+
+<form id="contactForm">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message"></textarea>
+<button type="submit">Send</button>
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Gomithra Ekambaram | All Rights Reserved</p>
+</footer>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
